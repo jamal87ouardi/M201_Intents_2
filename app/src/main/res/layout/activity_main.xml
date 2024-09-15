@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/main"
+    android:gravity="center"
+
+    >
+
+    <!-- EditText for Nuit -->
+    <EditText
+        android:id="@+id/Nuite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Entrez la nuite"
+        android:inputType="number"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="type de chambre" />
+
+    <!-- RadioGroup for 3 RadioButtons -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/simple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simple" />
+
+        <RadioButton
+            android:id="@+id/cdouble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Double" />
+
+        <RadioButton
+            android:id="@+id/multiple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Multiple" />
+    </RadioGroup>
+
+    <!-- Switch -->
+    <Switch
+        android:id="@+id/avecPD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avec petit déjeuner"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+</LinearLayout>

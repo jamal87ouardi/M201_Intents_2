@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Second">
+
+    <TextView
+        android:id="@+id/resume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nuité: 4 \n chambre: Simple \n avec petit dej : oui"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="total: 1200 dh"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"/>
+</LinearLayout>

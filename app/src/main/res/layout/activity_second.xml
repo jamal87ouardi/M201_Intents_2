@@ -9,19 +9,27 @@
     tools:context=".Second">
 
     <TextView
-        android:id="@+id/resume"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="nuité: 4 \n chambre: Simple \n avec petit dej : oui"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="50dp"
-        />
+        android:id="@+id/info"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
 
     <TextView
-        android:id="@+id/price"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="total: 1200 dh"
+        android:id="@+id/prix"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return"
         android:layout_marginTop="50dp"
-        android:layout_marginLeft="50dp"/>
+        android:layout_gravity="center"
+        android:id="@+id/btn2"/>
+
 </LinearLayout>
